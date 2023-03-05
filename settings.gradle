@@ -1,0 +1,3 @@
+rootProject.name = 'theatrical-plays'
+include ':exercise-1'
+include ':exercise-2'
