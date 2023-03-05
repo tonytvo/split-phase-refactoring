@@ -1,5 +1,5 @@
 plugins {
-    id 'java-library'
+    id 'application'
 }
 
 repositories {
@@ -9,6 +9,10 @@ repositories {
 dependencies {
     implementation 'io.vavr:vavr:1.0.0-alpha-4'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+}
+
+application {
+    mainClass = 'ca.jbrains.pos.PointOfSale'
 }
 
 tasks.named('test') {
