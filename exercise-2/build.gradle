@@ -15,6 +15,10 @@ application {
     mainClass = 'ca.jbrains.pos.PointOfSale'
 }
 
+run {
+    standardInput = System.in
+}
+
 tasks.named('test') {
     useJUnitPlatform()
 }

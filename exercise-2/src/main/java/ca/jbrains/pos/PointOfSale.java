@@ -8,12 +8,8 @@ import java.util.stream.Stream;
 public class PointOfSale {
     public static void main(String[] args) {
         parseInput(new InputStreamReader(System.in)).forEachOrdered(
-                line -> displayToConsole(displaySellOneItem(line, (ignored) -> "::a hardcoded response for every barcode::"))
+                line -> System.out.println(displaySellOneItem(line, (ignored) -> "::a hardcoded response for every barcode::"))
         );
-    }
-
-    private static void displayToConsole(String message) {
-        System.out.println(message);
     }
 
     public static Stream<String> parseInput(Reader simulateInputFromStdin) {
