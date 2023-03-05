@@ -9,8 +9,10 @@
 ## Exercise 2: point of sale
 
 - it is reference from this code base https://github.com/jbrains/wbitdd2-PointOfSale-Java-only-UI
+- https://alvarogarcia7.github.io/blog/2019/02/06/refactoring-split-loop-map-equivalence/
 
 # References
 - https://github.com/gregorriegler/refactoring-split-phase
 - https://github.com/emilybache/Theatrical-Players-Refactoring-Kata
 - https://github.com/jbrains/wbitdd2-PointOfSale-Java-only-UI
+- https://alvarogarcia7.github.io/blog/2019/02/06/refactoring-split-loop-map-equivalence/
